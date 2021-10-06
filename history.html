@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<body>
+
+<button onclick="goBack()">Voltar</button>
+<button onclick="goForward()">Avançar</button>
+<button onclick="goBackDuo()">Voltar 2</button>
+
+<p>Ao clicar acima em voltar retornará à página anterior.</p>
+<p>Ao clicar acima em avançar avançará à próxima página existente no histórico.</p>
+<p>Ao clicar voltar 2, retornará 2  paginas na lista do histórico.</p>
+
+<table><tr><td>HISTÓRICO:</td><td><div id="demo"></div></td></tr></table>
+<p><strong>Nota:</strong> o histórico é referente a essa sessão do usuário.</p>
+<script>
+function goBack() {
+  window.history.back();
+}
+function goForward() {
+  window.history.forward();
+}
+function goBackDuo() {
+  window.history.go(-2);
+}
+var x = history.length;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>

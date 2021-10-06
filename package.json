@@ -1,0 +1,12 @@
+{
+  "name": "js-web-api",
+  "version": "1.0.0",
+  "description": "Métodos Web API do Javascript",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sinval Gomes",
+  "license": "ISC"
+}

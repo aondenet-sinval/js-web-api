@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+
+<h1>Metodo console.assert() do Javascript</h1>
+
+<p>Pressone a tecla f12 e verifique a mensagem de erro do console.</p>
+<p id="ok">Esse Id existe. Beleza?</p>
+
+<script>
+
+console.assert(document.getElementById("ler"), "Não existe elemento com ID 'ler'");
+var meuArr = ["Laranja", "Banana", "Manga", "Abacaxi" ];
+console.assert(document.getElementById("ler"), meuArr);
+var meuObj = { firstname : "João", lastname : "Gomes" };
+console.assert(document.getElementById("ok"), meuObj); 
+</script>
+
+</body>
+</html>

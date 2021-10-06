@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+
+
+<h1>JavaScript método console.count():</h1>
+<p>Pressione a tecla f12 e verifique a mensagem no console.</p>
+
+<p>Ao clicar no botão, será executada uma função, que executará outra função, que executará o método console.trace (), que exibirá este trace no console.view. </p>
+
+<button onclick="myFunction()">Start Trace</button>
+
+<script>
+
+function myFunction() {
+console.trace('a');
+  myOtherFunction();
+}
+
+function myOtherFunction() {
+console.trace('b');
+var a = 20;
+var b = 5;
+var subt = a - b;
+console.log(subt)
+  console.trace('c');
+}
+
+</script>
+
+</body>
+</html>

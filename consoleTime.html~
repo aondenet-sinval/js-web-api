@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+
+
+<h1>JavaScript método console.count():</h1>
+<p>Pressone a tecla f12 e verifique a tabela impressa no console.</p>
+<p>
+<script>
+var i;
+console.time("test1");
+for (i = 0; i < 10; i++) {
+  console.log(i)
+}
+console.timeEnd("test1");
+console.time("test2");
+for (i = 0; i < 20; i++) {
+  console.log(i)
+}
+console.timeEnd("test2");
+console.time("test3");
+for (i = 0; i < 30; i++) {
+  console.log(i)
+}
+console.timeEnd("test3");
+
+</script>
+
+
+
+</body>
+</html>

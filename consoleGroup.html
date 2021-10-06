@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+
+<h1>Metodo console.assert() do Javascript</h1>
+
+<p>Pressone a tecla f12 e verifique a mensagem do console.</p>
+
+
+<script>
+console.log("Alo Mundo!");
+console.group('grupoA');
+console.log("Oi estou no grupo A!");
+console.log("Oi, também faço parte do grupo!");
+console.groupEnd();
+console.group('grupoB');
+console.log("Oi estou no grupo B!");
+console.log("Oi, também faço parte do grupo!");
+console.groupEnd();
+console.log("estou fora do grupo.");
+
+console.log("Alo Mundo!");
+console.groupCollapsed('grupoC');
+console.log("Oi estou no grupo C!");
+console.log("Oi, também faço parte do grupo!");
+console.groupEnd();
+console.log("estou fora do grupo.");
+</script>
+
+</body>
+</html>

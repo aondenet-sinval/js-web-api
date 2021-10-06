@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+
+
+<h1>JavaScript método console.count():</h1>
+<p>Pressione a tecla f12 e verifique o aviso mais claro no console.</p>
+
+<script>
+var erro = console.warn("Este é um aviso de erro!");
+console.assert(document.getElementById("ler"), erro); 
+</script>
+
+</body>
+</html>

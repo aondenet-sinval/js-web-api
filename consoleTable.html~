@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+
+
+<h1>JavaScript método console.count():</h1>
+<p>Pressone a tecla f12 e verifique a tabela impressa no console.</p>
+<p>
+<script>
+
+var car1 = { name : "Kombi", year : "2015" }
+var car2 = { name : "Fusca", year : "1980" }
+var car3 = { name : "Fiat", year : "2018" }
+
+console.table([car1, car2, car3]);
+</script>
+
+<p>Exemplo demonstrativo do método console.table() e como recebe parâmetros.</p>
+
+</body>
+</html>
